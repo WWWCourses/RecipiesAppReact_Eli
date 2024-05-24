@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    min-height: fit-content;
+}
+
+.mainPage {
+    background-color: rgb(221, 184, 172);
+}
+
+.linesH1 {
+    font-size: 30px;
+}
+
+h1 {
+    color: rgb(114, 0, 0);
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.filters,
+.searchRecipieCuisineOrIngredient,
+.viewAllRecipies {
+    display: flexbox;
+    text-align: center;
+}
+
+#recipieInput {
+    margin-right: 8px;
+    width: 250px;
+    height: 17px;
+    border: 2px solid rgb(116, 116, 116);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewAllRecipies {
+    vertical-align: middle;
+}
+
+#mainIMG {
+    height: 65vh;
+    margin-top: 20px;
+}
+
+.individualMeal {
+    padding: 1em;
+    display: flex;
+}
+
+.individualMeal:nth-child(odd) {
+    background-color: rgb(221, 184, 172);
+}
+
+.individualMeal:nth-child(even) {
+    background-color: rgb(244, 221, 214);
+}
+
+.descriptionMeal {
+    display: inline-block;
+    margin-left: 2em;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageIndividualMeal {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(49, 0, 0);
+    display: inline-block;
+}
+
+button {
+    background-color: rgb(198, 147, 130);
+    border: 2px solid rgb(49, 0, 0);
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(244, 221, 214);
+}
+
+#ShowAllRecipies {
+    margin: 1em;
+}
