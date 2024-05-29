@@ -1,8 +1,9 @@
 //import { useState } from 'react'
-import TitleIndex from "./titleIndexPage/titleIndexPage";
-import SearchBar from "./searchBarIndex/searchBar";
-import MainImage from "./mainImageIndex/mainImage";
-
+import TitleIndex from "./componentsIndex/title";
+import SearchBar from "./componentsIndex/searchBar";
+import MainImage from "./componentsIndex/mainImage";
+import { Router, Route, Routes } from "react-router";
+import MealsRecipiesList from "./componentsRecipiesList/mealsRecipiesList";
 
 function App() {
 
