@@ -1,0 +1,52 @@
+.recipeDetailsPage {
+    text-align: center;
+    margin: 2em;
+}
+
+.backButton {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0.25em;
+    cursor: pointer;
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
+.backButton:hover {
+    background-color: #0056b3;
+}
+
+.recipeDetails {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.recipeDetails h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.recipeDetails h2 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+.mealImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.recipeDetails ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipeDetails ul li {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}

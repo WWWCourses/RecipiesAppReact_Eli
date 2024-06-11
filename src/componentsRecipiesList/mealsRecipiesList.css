@@ -1,0 +1,36 @@
+.mealsPage {
+  text-align: center;
+  margin: 2em;
+}
+
+.listOfMeals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.mealItem {
+  border: 0.1em solid #ddd;
+  border-radius: 0.5em;
+  padding: 1em;
+  width: 12.5em; /* This is equivalent to 200px if 1em = 16px */
+  text-align: center;
+}
+
+.mealThumb {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.mealItem h3 {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+.mealItem p {
+  font-size: 0.9em;
+  color: #555;
+}

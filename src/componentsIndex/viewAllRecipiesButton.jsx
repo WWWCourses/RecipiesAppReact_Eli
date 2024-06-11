@@ -1,9 +1,9 @@
 import React from "react";
 
-function ButtonViewAllRecipies() {
-    return (
-        <a><button id="ShowAllRecipies">View all recipies</button></a>
-    )
+function ButtonViewAllRecipies({ onClick }) {
+  return (
+    <button onClick={onClick}>View All Recipes</button>
+  );
 }
 
-export default ButtonViewAllRecipies
+export default ButtonViewAllRecipies;
